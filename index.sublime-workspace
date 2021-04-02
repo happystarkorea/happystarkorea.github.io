@@ -1,0 +1,249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/happystarkorea_homepage/happystarkorea/js/bootstrap.js",
+		"/D/happystarkorea_homepage/happystarkorea/js/bootstrap.min.js",
+		"/D/happystarkorea_homepage/happystarkorea/js/npm.js",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap.css",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap.css.map",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap-theme.css",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap.min.css",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap-theme.css.map",
+		"/D/happystarkorea_homepage/happystarkorea/css/bootstrap-theme.min.css",
+		"/D/happystarkorea_homepage/happystarkorea/index.html",
+		"/D/happystarkorea_homepage/happystarkorea.github.io-main/happystarkorea.github.io-main/index.html",
+		"/D/happystarkorea_homepage/happystarkorea.github.io-main/happystarkorea.github.io-main/index2.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/_includes/JB/setup",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/css/bootstrap.css",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/blog.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/_includes/themes/bootstrap/index.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/_includes/themes/bootstrap/nav-bar.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/_layouts/post.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/typography.html",
+		"/D/happystarkorea_homepage/heliumjk.github.io-master/heliumjk.github.io-master/_layouts/index.html",
+		"/F/Bookmarks.html",
+		"/C/Users/ryun3/roadmapinc.github.io/css/style.css",
+		"/C/Users/ryun3/roadmapinc.github.io/index.html",
+		"/D/01.Work/00.스마트_주차정보제공시스템_구축_사업/관제소스_구조.txt",
+		"/D/01.Work/00.스마트_주차정보제공시스템_구축_사업/00.산출문서/gis참고.txt",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/01. 인천시_주차_세팅_파일/source/incheon_web/target/classes/egovframework/egovProps/globals.properties",
+		"/D/01.Work/00.스마트_주차정보제공시스템_구축_사업/00.산출문서/산출문서리스트_20210201.txt",
+		"/D/mfc_restful_sample.txt",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/sym/log/clg/EgovLoginLog_SQL_Tibero.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/config/tibero/sql-map-config-tibero-sym-log-clg.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-common.xml",
+		"/C/Users/ryun3/Downloads/cpprestsdk-master/cpprestsdk-master/Release/src/json/json.cpp",
+		"/C/Users/ryun3/Downloads/cpprestsdk-master/cpprestsdk-master/Release/src/json/json_parsing.cpp",
+		"/C/Users/ryun3/Downloads/cpprestsdk-master/cpprestsdk-master/Release/src/json/json_serialization.cpp",
+		"/C/Users/ryun3/Documents/Visual Studio 2015/Projects/tttttt/tttttt/mosquitto.h",
+		"/C/Program Files (x86)/mosquitto/mosquitto.conf",
+		"/C/Program Files (x86)/mosquitto/passwd.txt",
+		"/C/Users/ryun3/Desktop/passwd.txt",
+		"/C/Program Files (x86)/mosquitto/pwfile.example",
+		"/C/Program Files (x86)/mosquitto/devel/mosquitto.h",
+		"/C/libtemp/libwebsockets-4.1.6/libwebsockets-4.1.6/build/CMakeFiles/3.16.4/CMakeSystem.cmake",
+		"/C/libtemp/libwebsockets-4.1.6/libwebsockets-4.1.6/cmake/libwebsockets-config.cmake.in",
+		"/D/01.Work/00.스마트_주차정보제공시스템_구축_사업/06.업체자료/SKP/MQTT/src/main/java/com/data_alliance/sample/mqtt/TestClient.java",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/java/nParking/main/service/impl/MainServiceImpl.java",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/java/nParking/parking/service/impl/ParkingDAO.java",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/java/nParking/parking/service/impl/ParkingServiceImpl.java",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/java/nParking/main/service/MainService.java",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/cop/com/EgovUserInf_SQL_Tibero.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/nparking/M_Parking.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/cmm/use/EgovCmmUse_SQL_Tibero.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/cmm/fms/EgovFile_SQL_Tibero.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/nparking/M_Consult.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-security.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-excel.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-egovuserdetailshelper.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-properties.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-transaction.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/spring/com/context-sqlMap.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/sec/ram/EgovAuthorRoleManage_SQL_Tibero.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/config/mysql/sql-map-config-mysql-sym-log-clg.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/src/main/resources/egovframework/sqlmap/com/sym/log/clg/EgovLoginLog_SQL_Mysql.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/target/nParking-1.0.0/WEB-INF/jsp/front/login/join_01.jsp",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/target/nParking-1.0.0/WEB-INF/jsp/front/login/join_02.jsp",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/target/nParking-1.0.0/html/egovframework/com/uat/uia/setup/setup.conf",
+		"/D/01.Work/00.Src/00.OpenApi/project/web_incheon/WebContent/WEB-INF/web.xml",
+		"/D/01.Work/04.전자정부프레임워크/eGovFrameDev-3.6.0-64bit/incheon_web/target/classes/egovframework/egovProps/globals.properties",
+		"/D/01.Work/00.Src/00.OpenApi/project/web_incheon/index.jsp"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logo",
+			"995",
+			"2048px",
+			"b'{\"message_id\":\"00800000A0003DB1_UP",
+			"b'{\"message_id\":\"00800000A0003DB1_UP_8095265645643664\",\"f_port\":5,\"payload\":\"fgwBFA",
+			"b'{\"message_id\":\"00800000A0003DB1_UP_8095265645643664\",\"f_port\":5,\"payload\":\"fgwBFAQQMWQw8RkAAYF/\",\"is_confirmed\":true,\"is_ack\":false,\"is_class_b\":false,\"f_cnt_up\":52,\"rx_metadata\":[{\"gateway_info\":{\"gw_id\":\"00800000A0003DB1\",\"router_id\":\"router_js\",\"ip_address\":\"218.144.37.162\",\"port\":49721,\"longitude\":126.9842,\"latitude\":37.57122,\"alt",
+			"b'{\"message_id\":\"00800000A0003DB1_UP_8095265645643664\",\"f_port\":5,\"payload\":\"fgwBFAQQMWQw8RkAAYF/\",\"is_confirmed\":true,\"is_ack\":false,\"is_class_b\":false,\"f_cnt_up\":52,\"rx_metadata\":[{\"gateway_info\":{\"gw_id\":\"00800000A0003DB1\",\"router_id\":\"router_js\",\"ip_address\":\"218.144.37.162\",\"port\":49721,\"longitude\":126.9842,\"latitude\":37.57122,\"altitude\":196,\"channel_plan\":\"KR920\"},\"modulation\":\"LORA\",\"data_rate\":\"SF7BW125\",\"bit_rate\":0,\"coding_rate\":\"4/5\",\"timestamp\":3322244403,\"time\":1584061902992,\"rf_chain\":0,\"channel\":4,\"frequency\":922700000,\"rssi\":-49.0,\"snr\":14.0,\"gw_recv_time\":\"2020-03-13T01:11:42.909066Z\",\"uplink_toa\":66816000,\"antenna\":0,\"jver\":2,\"brd\":0,\"aesk\":0,\"ftime\":850548532,\"etime\":\"f2EhoqqjzDL/vyLddmhl8A==\",\"foff\":1367,\"ftdelta\":0,\"ftver\":1,\"dbg1\":0,\"dbg2\":2942}]}'",
+			"Total",
+			"lbname",
+			",",
+			"name",
+			"init",
+			"subscribe",
+			"url",
+			"configure",
+			"insert",
+			"login",
+			"btn_login"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

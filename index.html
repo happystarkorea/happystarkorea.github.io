@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>해피별 사회적협동조합</title>
+
+      <!--CSS-->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/swiper.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+
+     <!--파비콘-->
+     <link rel="shortcut icon" href="img/square.ico">
+   <link rel="apple-touch-icon-precomposed" href="img/square.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="96x96" href="img/square.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/square.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="img/square.ico" />
+
+     <!-- 자바스크립트 라이브러리 -->
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/ie-checker.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="https://kit.fontawesome.com/9edc6d889f.js" crossorigin="anonymous"></script>
+    <script>
+        var swiper = new Swiper('.swiper1', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        var swiper = new Swiper('.swiper2', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    </script>
+     <script>
+          $(function () {
+               // GNB네비게이션
+               $("#gnb > ul > li").hover(
+                    function () {
+                         $("#gnb").addClass("active");
+                         $(".gnb_bg").addClass("active");
+                    },
+                    function () {
+                         $("#gnb").removeClass("active");
+                         $(".gnb_bg").removeClass("active");
+                    }
+               );
+               $("#gnb > ul > li:first-child > a").focusin(function () {
+                    $("#gnb").addClass("active");
+                    $(".gnb_bg").addClass("active");
+               });
+               $("#gnb li:last-child li:last-child a").focusout(function () {
+                    $("#gnb").removeClass("active");
+                    $(".gnb_bg").removeClass("active");
+               });
+               $("#gnb > ul > li > a").focusin(function () {
+                    $(this).parent().addClass("active");
+               });
+               $("#gnb li li:last-child a").focusout(function () {
+                    $("#gnb > ul > li").removeClass("active");
+               });
+          });
+
+          $(function () {
+               // 슬라이드이미지
+               var n = 0;
+               var pos = 0;
+               setInterval(function () {
+                    n = n + 1;
+                    pos = -1 * 1903 * n;
+                    $(".slider ul").animate({ "left": pos }, 300, function () {
+                         if (n == 4) {
+                              n = 0;
+                              pos = 0;
+                              $(".slider ul").css({ "left": pos });
+                         }
+                    });
+               }, 3000);
+          });
+
+                    $(function () {
+               // Main Slider 
+               var n = 0;
+               var pos = 0;
+               setInterval(function () {
+                    n = n + 1;
+                    pos = -1 * 1203 * n;
+                    $(".slider_1 ul").animate({ "left": pos }, 300, function () {
+                         if (n == 2) {
+                              n = 0;
+                              pos = 0;
+                              $(".slider ul").css({ "left": pos });
+                         }
+                    });
+               }, 3000);
+          });
+
+     </script>
+
+
+</head>
+
+<body>
+
+
+     <div class="main_menu">
+          <div class="main_menu_in">
+               <div>
+                  
+                    <div class="left">
+                         <h1><a href="index.html"><img src="img/logo.png" alt="해피별"></a></h1>
+                    </div>
+                    <div class="middle">
+                         
+                         <nav id="gnb">
+                              <ul>
+                                   <li><a>소개</a>
+                                        <ul>
+                                             <li><a href="Intro.html">조합소개</a></li>
+                                             <li><a href="years.html">연혁</a></li>
+                                            
+                                             <li><a href="OrganizationChart.html">조직도</a></li>
+
+                                             <li><a href="Directions.html">오시는길</a></li>
+
+                                             <li><a href="Notice.html">공지사항</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>지원활동</a>
+                                        <ul>
+                                             <li><a href="FreeNurseExamination.html">무료간호진찰</a></li>
+                                             <li><a href="PreventiveCounseling.html">출산후 우울증 예방상담</a></li>
+                                             <li><a href="Dokdofare.html">독도비즈페어</a></li>
+                                             <li><a>추후 추가예정</a></li>
+                                             <li><a>추후 추가예정</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>판매물품</a>
+                                        <ul>
+                                             <li><a href="CompanyGiftSelling.html">기업선물</a></li>
+                                             <li><a href="FlowerSelling.html">꽃</a></li>
+                                             <li><a href="MaskSelling.html">마스크</a></li>
+                                             <li><a href="DiffuserSelling.html">디퓨저</a></li>
+                                             <li><a href="FrameSelling.html">액자</a></li>
+                                              <li><a href="CameraSelling.html">발열검지 카메라</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>직업학교</a>
+                                        <ul>
+                                             <li><a href="Freshener.html">방향제</a></li>
+                                             <li><a href="FlowerCakeMaking.html">앙금플라워</a></li>
+                                             <li><a href="FlowerArrangement.html">꽃꽂이</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>봉사활동</a>
+                                        <ul>
+                                             <li><a href="VolunteerWorkSchedule.html">봉사활동 일정 및 신청</a></li>
+                                             <li><a href="VolunteerWorkDiary.html">봉사활동 사진</a></li>
+                                        </ul>
+                                   </li>
+                                    <li><a>기부금사업</a>
+                                        <ul>
+                                             <li><a href="Supporter.html">후원해주신 분들</a></li>
+                                             <li><a href="WhereToUseOfDonation.html">기부금 사용처</a></li>
+                                             <li><a href="DonationDiary.html">기부 일지</a></li>
+                                        </ul>
+                                   </li>
+
+                                   <li><a>고객센터</a>
+                                        <ul>
+                                             <li><a href="CustomerInquiry.html">고객문의</a></li>
+                                             <li><a href="FAQ.html">FAQ</a></li>
+                                        </ul>
+                                   </li>
+                              </ul>
+                         </nav>
+                         <div class="gnb_bg"></div>
+                    </div>
+                    <div class="right">
+                         <ul>
+                            <li><a href="https://blog.naver.com/happystar2018"><img src="img/bloglogo.png" alt="해피별네이버블로그"></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- main_menu -->
+
+
+     <div class="visual">
+          <div class="slider">
+               <ul>
+                    <li><img src="img/background/slider.jpg" alt="비쥬얼슬라이드이미지"></a></li>
+                    <li><img src="img/background/slider2.jpg" alt="비쥬얼슬라이드이미지"></a></li>
+                    <li><img src="img/background/slider3.jpg" alt="비쥬얼슬라이드이미지"></a></li>
+                    <li><img src="img/background/slider4.jpg" alt="비쥬얼슬라이드이미지"></a></li>
+               </ul>
+          </div>
+          <div class="bottom">
+               <ul>
+                    <li><a><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                    <li><a href="WhereToUseOfDonation.html">모금액 알아보기</a></li>
+                    <li><a href="DonationDiary.html">후원금 사용일지 보기</a></li>
+                    <li><a href="Intro.html">해피별 하는일 알아보기</a></li>
+                    <li><a href="VolunteerWorkDiary.html">해피별 일지</a></li>
+               </ul>
+          </div>
+          <div class="bottom_bg"></div>
+     </div>
+     <!-- visual -->
+
+
+     <div class="content_2">
+          <div class="big_title">
+               <strong>도움주시는 방법</strong>
+               <span></span>
+               <p>여러가지 방법으로 아름다운 사회를 만들어 갈 수 있습니다.</p>
+          </div>
+          <div class="desc">
+               <div class="left">
+                    <div class="bic">
+                         <div class="img">
+                              <img src="img/index/donate.jpg" alt="이미지">
+                         </div>
+                         <div class="txt">
+                              <ul>
+                                    <li><a href="#">#명확한 후원금 사용처 공개</a></li>
+                                   <li><a href="#">#사용 일지 제공</a></li>
+                              </ul>
+                              <p>기부금 사업</p>
+                         </div>
+                    </div>
+                    <div class="small">
+                         <ul>
+                              <li>
+                                   <div class="img">
+                                        <img src="img/index/depressed.jpg" alt="이미지">
+                                   </div>
+                                   <div class="txt">
+                                        <ul>
+                                             <li><a href="#">#출산후우울증예방</a></li>
+                                             <li><a href="#">#상담</a></li>
+                                           
+                                        </ul>
+                                        <p>산모지원서비스</p>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="img">
+                                        <img src="img/index/dokdo.jpg" width=300 height=200 alt="이미지">
+                                   </div>
+                                   <div class="txt">
+                                        <ul>
+                                             <li><a href="#">#독도상품 만들기</a></li>
+                                             <li><a href="#">#액자 만들기</a></li>
+                                        </ul>
+                                        <p>독도비즈페어</p>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="right">
+                    <div class="small">
+                         <ul>
+                              <li>
+                                   <div class="img">
+                                        <img src="img/index/nurse.jpg" alt="이미지">
+                                   </div>
+                                   <div class="txt">
+                                        <ul>
+                                             <li><a href="#">#간호사 조합원</a></li>
+                                             <li><a href="#">#혈압측정</a></li>
+
+                                        </ul>
+                                        <p>무료진찰</p>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="img">
+                                        <img src="img/index/baby.jpg" width=300 alt="이미지">
+                                   </div>
+                                   <div class="txt">
+                                        <ul>
+                                             <li><a href="#">#올바른 모유수유</a></li>
+                                             <li><a href="#">#이유식</a></li>
+                                        </ul>
+                                        <p>신생아 케어</p>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="bic">
+                         <div class="img">
+                              <img src="img/index/flower.png" width=620 alt="이미지">
+                         </div>
+                         <div class="txt">
+                              <ul>
+                                   <li><a href="#">방향제</a></li>
+                                             <li><a href="#">#앙금플라워</a></li>
+                                             <li><a href="#">#꽃꽂이</a></li>
+                              </ul>
+                              <p>직업학교</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- content_2 -->
+          <div class="content_2" style="margin-top: 110px; margin-bottom: -100px;">
+              <div class="big_title">
+               <strong>후원 프로세스</strong>
+               <span></span>
+               <p>아래의 순서대로 후원이 진행됩니다.</p>
+          </div>
+        </div>
+           <div class="business">
+            <div>
+               <ul>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/notes.png" alt="비즈니스이미지"></a>
+                              <p>Step.1</p>
+                       </div>
+                 
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>신청</strong>
+                                   <p>물품 기증 신청<br>(개인/기업 및 단체)</p>
+                                   
+                              </div>
+                         </div>
+
+                    </li>
+
+                      <div class="arrow">
+                          <img src="img/right-arrow.png" alt="화살표"></a>
+                     </div>
+
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/box.png" alt="비즈니스이미지"></a>
+                              <p>Step.2</p>
+                         </div>
+                          
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>방문수거</strong>
+                                   <p>택배 기증,<br>직접 기증 가능</p>
+                                 
+                              </div>
+                         </div>
+                    </li>
+
+
+                      <div class="arrow">
+                          <img src="img/right-arrow.png" alt="화살표"></a>
+                     </div>
+
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/money.png" alt="비즈니스이미지"></a>
+                              <p>Step.3</p>
+                         </div>
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>물건검수</strong>
+                                   <p>물건검수 및 <br>가격책정</p>
+                                  
+                              </div>
+                         </div>
+                    </li>
+
+
+                      <div class="arrow">
+                          <img src="img/right-arrow.png" alt="화살표"></a>
+                     </div>
+
+
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/ticket.png" alt="비즈니스이미지"></a>
+                              <p>Step.4</p>
+                         </div>
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>기부금영수증 발행</strong>
+                                   <p>신청 시, <br>기부금 영수증 발행</p>
+                                  
+                              </div>
+                         </div>
+                    </li>
+
+
+                      <div class="arrow">
+                          <img src="img/right-arrow.png" alt="화살표"></a>
+                     </div>
+
+                     <li>
+                         <div class="img">
+                              <a href="#"><img src="img/shops.png" alt="비즈니스이미지"></a>
+                              <p>Step.5</p>
+                         </div>
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>해피별</strong>
+                                   <p>후원금 사용처에<br>직접 방문</p>
+                                  
+                              </div>
+                         </div>
+                    </li>
+
+
+                      <div class="arrow">
+                          <img src="img/right-arrow.png" alt="화살표"></a>
+                     </div>
+
+                     <li>
+                         <div class="img">
+                              <a href="#"><img src="img/favourite.png" alt="비즈니스이미지"></a>
+                              <p>Step.6</p>
+                         </div>
+                         <div class="over">
+                              <img src="img/small.png" alt="비즈니스마우스오버이미지">
+                              <div class="txt">
+                                   <strong>일지 작성</strong>
+                                   <p>후원금 사용처<br>투명한 공개</p>
+                                  
+                              </div>
+                         </div>
+                    </li>
+
+
+               </ul>
+          </div>
+     </div>
+     <!-- business -->
+     <!-- main_bg -->
+
+<!-- main_bg2
+     <div class="main_bg2">
+          <div>
+               <ul>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/fund.png" alt="이미지"></a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/bg_class_img2.jpg" alt="이미지"></a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/bg_class_img3.jpg" alt="이미지"></a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/bg_class_img4.jpg" alt="이미지"></a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img">
+                              <a href="#"><img src="img/bg_class_img5.jpg" alt="이미지"></a>
+                         </div>
+                    </li>
+               </ul>
+          </div>
+     </div>
+      -->
+
+     <div class="news">
+          <div>
+               <div class="left">
+                    <ul>
+                         <li><em>후원해주시는 분들</em><span><a href="Supporter.html"><i class="fa fa-plus" aria-hidden="true"></i></a></span></li>
+                         <li><em><a>케이에스아이 주식회사</a></em><span><a>2021.03.30</a></span>
+                         </li>
+                         <li><em><a>후원자분들을 기다리고 있습니다.</a></em><span><a>9999.12.31</a></span></li>
+                         <li><em><a>후원자분들을 기다리고 있습니다.</a></em><span><a>9999.12.31</a></span>
+                         </li>
+                         <li><em><a>후원자분들을 기다리고 있습니다.</a></em><span><a>9999.12.31</a></span></li>
+                         <li><em><a>후원자분들을 기다리고 있습니다.</a></em><span><a>9999.12.31</a></span></li>
+                    </ul>
+               </div>
+               <div class="middle">
+                    <ul>
+                         <li><em>해피별 알아보기</em><span><a href="intro.html"><i class="fa fa-plus" aria-hidden="true"></i></a></span>
+                         </li>
+                         <li><a href="intro.html"><img src="img/index_waiting.png" alt="모금액"></a></li>
+                    </ul>
+               </div>
+               <div class="right">
+                    <ul>
+                         <li><em>해피별 홍보 동영상</em><span><a><i class="fa fa-plus" aria-hidden="true"></i></a></span>
+                         </li>
+                         <li><a><img src="img/index_waiting.png" alt="뉴스이미지"></a></li>
+                    </ul>
+                   <!-- <div class="search">
+                         <ul>
+                              <li><input type="search"></li>
+                              <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                         </ul>
+                    </div>
+                  --> <!--search-->
+               </div>
+          </div>
+     </div>
+     <!-- news -->
+  <footer>
+          <div>
+               <div class="left">
+                    <ul>
+                         <li><a href="http://www.mogef.go.kr"><img src="img/female.jpg"></a></li>
+                         <li><a href="https://www.gg.go.kr"><img src="img/gg.png" alt="배너이미지"></a></li>
+                         <li><a href="index.html"><img src="img/logo4.png" alt="배너이미지"></a></li>
+                    </ul>
+                   
+               </div>
+               <div class="right">
+
+                    <ul>
+                      <li><a href="WhereToUseOfDonation.html"><b>모금액 알아보기</b></a></li>
+                      <li><a href="DonationDiary.html"><b>후원금 사용일지</b></a></li>
+                      <li><a href="Intro.html"><b>해피별 하는일</b></a></li>
+                      <li><a href="CustomerInquiry.html"><b>오시는 길</b></a></li>
+                    </ul>
+                    <p>해피별 대표이사 : 조은비,  주소 : 경기도 안양시 동안구 전파로 88 신원비젼타워 7층 701호</p>
+                    <p>사업자등록번호 : 219-86-01136 사회적협동조합,  개업 연월일 : 2018년 07월 17일</p>
+                    <ul>
+                         <li>대표번호 : 070-4804-2100 </li>
+                         <li>FAX : 070-4804-2143</li>
+                         <li>E-mail : happystar2018@naver.com</li>
+                    </ul>
+                    <p>© 2021 Happy Star.  © 2021 Happy Star.  © 2021 Happy Star.</p>
+               </div>
+               <div class="button">
+                    <a href="#"><img src="img/fix.png" alt="탑으로"></a>
+               </div>
+          </div>
+     </footer>
+     <!-- footer -->
+
+
+</html>
