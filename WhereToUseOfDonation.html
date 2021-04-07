@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="webstoryboy">
+
+     <title>해피별 사회적협동조합</title>
+<meta property="og:url" content="http://www.happystar.or.kr/WhereToUseOfDonation.html">
+<meta property="og:title" content="해피별 사회적협동조합">
+<meta property="og:type" content="website(1920X1080)">
+<meta property="og:image" content="img/background/slider.jpg">
+<meta property="og:description" content="여성 사회적 약자를 대상으로 창업/취업용 교육을 제공하여 자립 도모를 지원하는 사회적협동조합니다. ">
+
+
+     <!--css-->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     
+     <!--파비콘-->
+   <link rel="shortcut icon" href="img/square.ico">
+   <link rel="apple-touch-icon-precomposed" href="img/square.ico" />
+   <link rel="apple-touch-icon-precomposed" sizes="96x96" href="img/square.ico" />
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/square.ico" />
+   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="img/square.ico" />
+
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+ <script>
+          $(function () {
+               // GNB네비게이션
+               $("#gnb > ul > li").hover(
+                    function () {
+                         $("#gnb").addClass("active");
+                         $(".gnb_bg").addClass("active");
+                    },
+                    function () {
+                         $("#gnb").removeClass("active");
+                         $(".gnb_bg").removeClass("active");
+                    }
+               );
+               $("#gnb > ul > li:first-child > a").focusin(function () {
+                    $("#gnb").addClass("active");
+                    $(".gnb_bg").addClass("active");
+               });
+               $("#gnb li:last-child li:last-child a").focusout(function () {
+                    $("#gnb").removeClass("active");
+                    $(".gnb_bg").removeClass("active");
+               });
+               $("#gnb > ul > li > a").focusin(function () {
+                    $(this).parent().addClass("active");
+               });
+               $("#gnb li li:last-child a").focusout(function () {
+                    $("#gnb > ul > li").removeClass("active");
+               });
+          });</script>
+<script>
+
+            $(function () {
+               var tab_Btn = $(".tab_btn > ul > li");
+               var tab_Cont = $(".tab_cont > ul");
+               tab_Cont.hide().eq(0).show();
+               tab_Btn.click(function (e) {
+                    e.preventDefault();
+                    var target = $(this);
+                    var index = target.index();
+                    tab_Btn.removeClass("active");
+                    target.addClass("active");
+                    tab_Cont.hide();
+                    tab_Cont.eq(index).show();
+               });
+          });
+        </script>
+
+        <!-- fixed -->
+     </head>
+
+<body>
+
+     <div class="main_menu">
+          <div class="main_menu_in">
+               <div>
+                  
+                    <div class="left">
+                                     <h1><a href="index.html"><img src="img/logo.png" alt="해피별"></a></h1>
+                    </div>
+                    <div class="middle">
+                         
+                         <nav id="gnb">
+                              <ul>
+                                   <li><a>소개</a>
+                                        <ul>
+                                             <li><a href="Intro.html">조합소개</a></li>
+                                             <li><a href="years.html">연혁</a></li>
+                                            
+                                             <li><a href="OrganizationChart.html">조직도</a></li>
+                                             <li><a href="Notice.html">공지사항</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>지원활동</a>
+                                        <ul>
+                                             <li><a href="FreeNurseExamination.html">무료간호진찰</a></li>
+                                             <li><a href="PreventiveCounseling.html">출산후 우울증 예방상담</a></li>
+                                             <li><a href="Dokdofare.html">독도비즈페어</a></li>
+                                             <li><a>추후 추가예정</a></li>
+                                             <li><a>추후 추가예정</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>판매물품</a>
+                                        <ul>
+                                             <li><a href="CompanyGiftSelling.html">기업선물</a></li>
+                                             <li><a href="FlowerSelling.html">꽃</a></li>
+                                             <li><a href="MaskSelling.html">마스크</a></li>
+                                             <li><a href="DiffuserSelling.html">디퓨저</a></li>
+                                             <li><a href="FrameSelling.html">액자</a></li>
+                                              <li><a href="CameraSelling.html">발열검지 카메라</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>직업학교</a>
+                                        <ul>
+                                             <li><a href="Freshener.html">방향제</a></li>
+                                             <li><a href="FlowerCakeMaking.html">앙금플라워</a></li>
+                                             <li><a href="FlowerArrangement.html">꽃꽂이</a></li>
+                                        </ul>
+                                   </li>
+                                   <li><a>봉사활동</a>
+                                        <ul>
+                                             <li><a href="VolunteerWorkSchedule.html">봉사활동 일정 및 신청</a></li>
+                                             <li><a href="VolunteerWorkDiary.html">봉사활동 사진</a></li>
+                                        </ul>
+                                   </li>
+                                    <li><a>기부금사업</a>
+                                        <ul>
+                                             <li><a href="Supporter.html">후원해주신 분들</a></li>
+                                             <li><a href="WhereToUseOfDonation.html">기부금 사용처</a></li>
+                                             <li><a href="DonationDiary.html">기부 일지</a></li>
+                                        </ul>
+                                   </li>
+
+                                   <li><a>고객센터</a>
+                                        <ul>
+                                             <li><a href="CustomerInquiry.html">고객문의</a></li>
+                                             <li><a href="FAQ.html">FAQ</a></li>
+                                        </ul>
+                                   </li>
+                              </ul>
+                         </nav>
+                         <div class="gnb_bg"></div>
+                    </div>
+                    <div class="right">
+                         <ul>
+                              <li><a href="https://blog.naver.com/happystar2018"><img src="img/bloglogo.png" alt="해피별네이버블로그"></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- main_menu -->
+
+
+     <div class="visual">
+      <img src="img/plant.jpg"></a>
+     
+    
+     </div>  
+
+    <!--visual-->
+
+   
+        <div class="content_2">
+          <div class="big_title">
+               <strong>기부금 사용처</strong>
+               <span></span>
+              <p>기부금이 쓰인 단체 및 협동조합 입니다.</p>
+          </div>
+        </div>
+   
+
+    <!--소제목-->
+
+   
+    <div class="best_product">
+        <div>
+            <ul>
+            
+            </ul>
+        </div>
+    </div>
+    <!-- best_product -->
+     <footer>
+          <div>
+               <div class="left">
+                    <ul>
+                         <li><a href="http://www.mogef.go.kr"><img src="img/female.jpg"></a></li>
+                         <li><a href="https://www.gg.go.kr"><img src="img/gg.png" alt="배너이미지"></a></li>
+                         <li><a href="index.html"><img src="img/logo4.png" alt="배너이미지"></a></li>
+                    </ul>
+                   
+               </div>
+               <div class="right">
+
+                    <ul>
+                      <li><a href="WhereToUseOfDonation.html"><b>모금액 알아보기</b></a></li>
+                      <li><a href="DonationDiary.html"><b>후원금 사용일지</b></a></li>
+                      <li><a href="Intro.html"><b>해피별 하는일</b></a></li>
+                      <li><a href="CustomerInquiry.html"><b>오시는 길</b></a></li>
+                    </ul>
+                    <p>해피별 대표이사 : 조은비,  주소 : 경기도 안양시 동안구 전파로 88 신원비젼타워 7층 701호</p>
+                    <p>사업자등록번호 : 219-86-01136 사회적협동조합,  개업 연월일 : 2018년 07월 17일</p>
+                    <ul>
+                         <li>대표번호 : 070-4804-2100 </li>
+                         <li>FAX : 070-4804-2143</li>
+                         <li>E-mail : happystar2018@naver.com</li>
+                    </ul>
+                    <p>© 2021 Happy Star.  © 2021 Happy Star.  © 2021 Happy Star.</p>
+               </div>
+               <div class="button">
+                    <a href="#"><img src="img/fix.png" alt="탑으로"></a>
+               </div>
+          </div>
+     </footer>
+     <!-- footer -->
+
+</body>
+
+</html>
